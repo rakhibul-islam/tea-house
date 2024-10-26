@@ -22,6 +22,9 @@
       tailwind.config = {
         theme: {
           extend: {
+            fontFamily:{
+              manrope: ["Manrope", "serif"]
+            },
             colors: {
               clifford: "#da373d",
             
@@ -32,7 +35,7 @@
       };
     </script>
   </head>
-  <body class="bg-slate-50">
+  <body class="bg-slate-50 font-manrope">
     <main class="max-w-screen-xl bg-white mx-auto px-8 lg:px-28">
       <!-- hero  -->
       <section class="py-5 md:py-8">
@@ -247,7 +250,7 @@
             <label class="block text-xs font-semibold text-gray-700" for="email">Email Address</label>
             <div class="flex justify-between items-center">
               <input class="w-3/4 md:w-full bg-transparent border-b border-gray-500" type="email" name="" id="email" >
-            <button class="bg-gradient-to-r from-orange-400 to-red-600 text-white rounded-full w-8 h-8"><i class="fa-solid fa-greater-than"></i></button>
+            <button class="bg-gradient-to-r from-orange-400 to-red-600 text-white rounded-full w-8 h-8 animate-bounce"><i class="fa-solid fa-greater-than "></i></button>
             </div>
           </div>
           
